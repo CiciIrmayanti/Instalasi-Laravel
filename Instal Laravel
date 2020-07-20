@@ -1,0 +1,13 @@
+Instalasi Laravel :
+
+1. Nyalakan XAMPP
+2. Buka command
+3. ketik 'composer' untk mengecek apakah kita sudah menginstal composer atau belum (jika sudah akan tampil tulisan COMPOSER dan tulisan lainnya).
+4. masuk kedalam folder htdocs
+5. ketik 'composer create-project --prefer-dist laravel/laravel nama project kita
+6. setelah it akan muncul instalan, lalu setelah ada bacaan '> @php artisan key:generate --ansi
+Application key set successfully' artinya instalan sudah selesai
+7. lalu kita bisa melihat alamat dengan masuk ke dalam project kita ketik 'cd nama project' lalu setelah masuk ketik 'php artisan serve' akan muncul seperti ini 'Laravel development server started: http://127.0.0.1:8000'
+8. lalu kita lihat hasilnya di chrome, ketik 'localhost/namaproject/public. akan keluar bacaan LARAVEL
+
+Selesai laravel kamu sudah terinstal...
